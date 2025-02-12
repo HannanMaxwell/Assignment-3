@@ -30,7 +30,6 @@ asterisks = "*"
 width = 40
 loop_active = True
 
-
 # This while loop will keep looping unless the user chooses to quit the 
 # loop by entering q. The user is presented with a selection menu that
 # will allow the user to deposit and withdraw money from his account.
@@ -85,9 +84,9 @@ while loop_active:
             print(asterisks * width)
             time.sleep(3)
             os.system('cls' if os.name == 'nt' else 'clear')
-            # If the withdraw amount enter was more than the bank balance
-            # the user is presented with a message insufficient funds and the
-            # screen is cleared after 3 seconds.
+        # If the withdraw amount enter was more than the bank balance
+        # the user is presented with a message insufficient funds and the
+        # screen is cleared after 3 seconds.
         else:
             print(f"\n{asterisks * width}")
             print("INSUFFICIENT FUNDS".center(width))
