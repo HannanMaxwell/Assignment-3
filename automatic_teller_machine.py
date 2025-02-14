@@ -1,5 +1,8 @@
-""" 
-
+"""This program is an ATM simulator which showcases the use of
+    a while loop, if/elif/else statements, and importing from
+    libraries. The ATM presents a menu option which the user
+    gets to choose from three options such as D to deposit,
+    W to withdraw, or Q to quit the program/loop.
 """
 
 __author__ = "Muhammad Rahmani"
