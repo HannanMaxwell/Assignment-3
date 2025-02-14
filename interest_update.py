@@ -26,3 +26,13 @@ for account_number, account_balance in customer_balances.items():
 
 pprint(customer_balances)
 
+with open("updated_balances_MR.csv", "w") as file:
+    file.write("Account,Balance\n")
+    for account_number, account_balance in customer_balances.items():
+        file.write(f"{account_number}, {account_balance:.2f}\n")
+
+
+
+
+
+
